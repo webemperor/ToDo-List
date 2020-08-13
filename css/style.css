@@ -95,10 +95,6 @@ body {
   transition: background-color .3s;
 }
 
-.todo-list__tools button :hover {
-  background-color: #ddd;
-}
-
 .todo-list__complete {
   color: #0084ff;
 }

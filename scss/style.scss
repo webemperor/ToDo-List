@@ -1,5 +1,8 @@
 @import "variables";
 
+// font-family: 'Special Elite', cursive;
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -93,9 +96,7 @@ body {
         background-color: transparent;
         cursor: pointer;
         transition: background-color .3s;
-        :hover {
-            background-color: #ddd;
-        }
+        
     }
 }
 
