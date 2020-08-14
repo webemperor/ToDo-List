@@ -60,6 +60,7 @@ body {
 
 .todo-list__alert-info {
   margin-top: 20px;
+  margin-bottom: 20px;
   color: dark-blue-color;
 }
 
@@ -69,7 +70,8 @@ body {
 
 .todo-list h3 {
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .todo-list li {
