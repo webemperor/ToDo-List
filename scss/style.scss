@@ -13,8 +13,8 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 120px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: $light-color;
+    font-family: $font-Elite;
+    background-color: rgb(196, 196, 196);
 }
 
 
@@ -27,7 +27,9 @@ body {
     .header {
         padding: 40px;
         border-radius: 5px 5px 0 0;
-        background-image: linear-gradient(340deg, #045de9 0%, #09c6f9 100%);
+        background-image: url(../img/todo-lists-5238324_1280.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
         .header__title {
             margin-bottom: 20px;
             color: $light-color;
@@ -41,6 +43,7 @@ body {
             border-radius: 5px;
             color: $light-dark-color;
             background-color: $light-color;
+            font-family: $font-Elite;
         }
         .header__add-btn {
             padding: 10px 22px;
@@ -48,6 +51,7 @@ body {
             border-radius: 5px;
             color: $dark-blue-color;
             background-color: $light-color;
+            font-family: $font-Elite;
             text-transform: uppercase;
             cursor: pointer;
             transition: background-color .3s, color .3s;
@@ -134,6 +138,7 @@ body {
     width: 800px;
     color: $light-color;
     background-color:$light-dark-color;
+    font-family:$font-Elite;
     border-radius: 5px;
     .popup__editTask {
         padding: 20px;
@@ -155,6 +160,7 @@ body {
             border-radius: 5px;
             color: $light-dark-color;
             background-color: $light-color;
+            font-family: $font-Elite;
         }
         .popup__popup-btn {
             display: inline-block;
@@ -166,6 +172,7 @@ body {
             color: $deep-dark-color;
             background-color:$light-color;
             text-transform: uppercase;
+            font-family: $font-Elite;
             cursor: pointer;
             transition: background-color .3s, color .3s;
             :hover {
