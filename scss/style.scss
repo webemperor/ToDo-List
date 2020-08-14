@@ -1,7 +1,5 @@
 @import "variables";
 
-// font-family: 'Special Elite', cursive;
-
 
 * {
     box-sizing: border-box;
@@ -24,45 +22,54 @@ body {
     background: #fff;
     box-shadow: 4px 4px 5px rgba(82, 82, 82, .4);
     border-radius: 5px;
-    .header {
-        padding: 40px;
-        border-radius: 5px 5px 0 0;
-        background-image: url(../img/todo-lists-5238324_1280.jpg) ;
-        background-size: cover;
-        background-repeat: no-repeat;
-        .header__title {
-            margin-bottom: 20px;
-            color: $light-color;
-            text-transform: uppercase;
-        }
-        .header__todo-input {
-            width: 80%;
-            padding: 10px 20px;
-            margin-right: 20px;
-            border: none;
-            border-radius: 5px;
-            color: $light-dark-color;
-            background-color: $light-color;
-            font-family: $font-Elite;
-        }
-        .header__add-btn {
-            padding: 10px 22px;
-            border: none;
-            border-radius: 5px;
-            color: $dark-blue-color;
-            background-color: $light-color;
-            font-family: $font-Elite;
-            text-transform: uppercase;
-            cursor: pointer;
-            transition: background-color .3s, color .3s;
-        }
-        .header__add-btn:hover {
-            color: #fff;
-            background-color: $light-dark-color;
-        }
-    }
+ 
 
 }
+
+.header {
+    padding: 40px;
+    border-radius: 5px 5px 0 0;
+    background-image: url(../img/todo-lists-5238324_1280.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+ 
+   
+}
+.header__title {
+    margin-bottom: 20px;
+    color: $light-color;
+    text-transform: uppercase;
+}
+.header__todo-input {
+    width: 80%;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    color: $light-dark-color;
+    background-color: $light-color;
+    font-family: $font-Elite;
+}
+.header__add-btn {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 5px;
+    color: $dark-blue-color;
+    background-color: $light-color;
+    font-family: $font-Elite;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color .3s, color .3s;
+    :hover {
+        color: #fff;
+        background-color: $light-dark-color;
+    }
+}
+
+
+
 
 .todo-list__alert-info {
     margin-top: 20px;
@@ -140,56 +147,57 @@ body {
     background-color:$light-dark-color;
     font-family:$font-Elite;
     border-radius: 5px;
-    .popup__editTask {
-        padding: 20px;
-    }
-    .popup__popup-body {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 90%;
-        padding: 10px;
-        .popup__popup-info {
-            margin-bottom: 20px;
-            color: $light-color;
-        }
-        .popup__popup-input {
-            width: 100%;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            color: $light-dark-color;
-            background-color: $light-color;
-            font-family: $font-Elite;
-        }
-        .popup__popup-btn {
-            display: inline-block;
-            width: 30%;
-            padding: 10px 22px;
-            margin: 20px;
-            border: none;
-            border-radius: 5px;
-            color: $deep-dark-color;
-            background-color:$light-color;
-            text-transform: uppercase;
-            font-family: $font-Elite;
-            cursor: pointer;
-            transition: background-color .3s, color .3s;
-            :hover {
-                color: #fff;
-                background-color: $light-blue-color;
-            }
-        }
+   
+   
         
     }
+
+
+.popup__editTask {
+    padding: 20px;
 }
 
+.popup__popup-body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 10px;
+   
+ 
+  
+    }
 
+.popup__popup-info {
+    margin-bottom: 20px;
+    color: $light-color;
+}
 
+.popup__popup-input {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: $light-dark-color;
+    background-color: $light-color;
+    font-family: $font-Elite;
+}
 
-
-
-
-
-
-
+.popup__popup-btn {
+    display: inline-block;
+    width: 30%;
+    padding: 10px 22px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    color: $deep-dark-color;
+    background-color:$light-color;
+    text-transform: uppercase;
+    font-family: $font-Elite;
+    cursor: pointer;
+    transition: background-color .3s, color .3s;
+    :hover {
+        color: #fff;
+        background-color: $light-blue-color;
+    }
+}

@@ -20,7 +20,7 @@ body {
   border-radius: 5px;
 }
 
-.todo .header {
+.header {
   padding: 40px;
   border-radius: 5px 5px 0 0;
   background-image: url(../img/todo-lists-5238324_1280.jpg);
@@ -28,13 +28,13 @@ body {
   background-repeat: no-repeat;
 }
 
-.todo .header .header__title {
+.header__title {
   margin-bottom: 20px;
   color: whitesmoke;
   text-transform: uppercase;
 }
 
-.todo .header .header__todo-input {
+.header__todo-input {
   width: 80%;
   padding: 10px 20px;
   margin-right: 20px;
@@ -45,7 +45,7 @@ body {
   font-family: "Special Elite", cursive;
 }
 
-.todo .header .header__add-btn {
+.header__add-btn {
   padding: 10px 22px;
   border: none;
   border-radius: 5px;
@@ -57,7 +57,7 @@ body {
   transition: background-color .3s, color .3s;
 }
 
-.todo .header .header__add-btn:hover {
+.header__add-btn :hover {
   color: #fff;
   background-color: #4f525c;
 }
@@ -137,11 +137,11 @@ body {
   border-radius: 5px;
 }
 
-.popup .popup__editTask {
+.popup__editTask {
   padding: 20px;
 }
 
-.popup .popup__popup-body {
+.popup__popup-body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -149,12 +149,12 @@ body {
   padding: 10px;
 }
 
-.popup .popup__popup-body .popup__popup-info {
+.popup__popup-info {
   margin-bottom: 20px;
   color: whitesmoke;
 }
 
-.popup .popup__popup-body .popup__popup-input {
+.popup__popup-input {
   width: 100%;
   padding: 10px 20px;
   border: none;
@@ -164,7 +164,7 @@ body {
   font-family: "Special Elite", cursive;
 }
 
-.popup .popup__popup-body .popup__popup-btn {
+.popup__popup-btn {
   display: inline-block;
   width: 30%;
   padding: 10px 22px;
@@ -179,7 +179,7 @@ body {
   transition: background-color .3s, color .3s;
 }
 
-.popup .popup__popup-body .popup__popup-btn :hover {
+.popup__popup-btn :hover {
   color: #fff;
   background-color: #0084ff;
 }
