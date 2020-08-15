@@ -47,7 +47,7 @@ const prepareDOMEvents = () => {
 
 const addNewTask = () => {
     if ($todoInput.value === '') {
-        $alertInfo.textContent = 'wpisz treść zadania';
+        $alertInfo.textContent = 'Enter the task content';
 
 
     } else {
@@ -138,7 +138,7 @@ const changeTodo = () => {
         $editedTodo.firstChild.textContent = $popupInput.value;
         $popup.style.display = "none"
     } else {
-        $popupInfo.innerText = "wpisz cos"
+        $popupInfo.innerText = "Enter the task content"
     }
 }
 
@@ -153,7 +153,7 @@ const deleteTask = (e) => {
     removeTask.remove();
 
     if ($allTasks.length === 0) {
-        $alertInfo.innerText = 'brak zadań na liście'
+        $alertInfo.innerText = 'no tasks on the list'
     }
 
 }
