@@ -22,7 +22,10 @@ body {
     background: #fff;
     box-shadow: 4px 4px 5px rgba(82, 82, 82, .4);
     border-radius: 5px;
- 
+ @media(max-width:545px){
+    width: 470px;
+
+ }
 
 }
 
@@ -32,7 +35,10 @@ body {
     background-image: url(../img/todo-lists-5238324_1280.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
-   
+    @media(max-width:545px){
+        padding:40px 10px
+    
+     }
 
  
    
@@ -51,6 +57,10 @@ body {
     color: $light-dark-color;
     background-color: $light-color;
     font-family: $font-Elite;
+    @media(max-width:545px){
+        width: 70%;
+    
+     }
 }
 .header__add-btn {
     padding: 10px 22px;
@@ -147,7 +157,10 @@ body {
     background-color:$light-dark-color;
     font-family:$font-Elite;
     border-radius: 5px;
-   
+    @media(max-width:545px){
+        width: 430px;
+    
+     }
    
         
     }

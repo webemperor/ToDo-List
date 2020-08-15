@@ -20,12 +20,24 @@ body {
   border-radius: 5px;
 }
 
+@media (max-width: 545px) {
+  .todo {
+    width: 470px;
+  }
+}
+
 .header {
   padding: 40px;
   border-radius: 5px 5px 0 0;
   background-image: url(../img/todo-lists-5238324_1280.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 545px) {
+  .header {
+    padding: 40px 10px;
+  }
 }
 
 .header__title {
@@ -43,6 +55,12 @@ body {
   color: #4f525c;
   background-color: whitesmoke;
   font-family: "Special Elite", cursive;
+}
+
+@media (max-width: 545px) {
+  .header__todo-input {
+    width: 70%;
+  }
 }
 
 .header__add-btn {
@@ -135,6 +153,12 @@ body {
   background-color: #4f525c;
   font-family: "Special Elite", cursive;
   border-radius: 5px;
+}
+
+@media (max-width: 545px) {
+  .popup {
+    width: 430px;
+  }
 }
 
 .popup__editTask {
